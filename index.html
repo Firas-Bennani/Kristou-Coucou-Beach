@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kristou Coucou Beach — Plage privée à Ghar El Melh, Tunisie</title>
+  <meta name="description" content="Kristou Coucou Beach, plage privée d'exception à Ghar El Melh. Traversée en bateau, déjeuner de poisson frais, cabanes, mocktails signature et couchers de soleil inoubliables. Réservez dès maintenant." />
+  <meta name="theme-color" content="#3E5D49" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:title" content="Kristou Coucou Beach — Votre paradis d'été à Ghar El Melh" />
+  <meta property="og:description" content="Une plage privée d'exception : bateau, déjeuner de poisson frais, cabanes, mocktails signature et couchers de soleil spectaculaires." />
+  <meta property="og:image" content="assets/media/hero/hero-1.webp" />
+  <meta property="og:site_name" content="Kristou Coucou Beach" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/favicon-180.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="#accueil" class="brand" aria-label="Kristou Coucou Beach — accueil">
+      <img src="assets/logo-white.png" alt="Logo Kristou Coucou Beach" class="brand-logo" width="150" height="110" />
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+      <a href="#accueil" class="nav-link">Accueil</a>
+      <a href="#apropos" class="nav-link">À propos</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#galerie" class="nav-link">Galerie</a>
+      <a href="#forfaits" class="nav-link">Forfaits</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-reserve"
+         href="https://wa.me/21693604882?text=Bonjour%20Kristou%20Coucou%20Beach%2C%20je%20souhaite%20r%C3%A9server.%20Merci."
+         target="_blank" rel="noopener">Réserver</a>
+      <a class="social-icon" aria-label="Facebook Kristou Coucou Beach"
+         href="https://www.facebook.com/kristoucoucoubeach/?locale=fr_FR" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V6.7c0-.8.2-1.2 1.3-1.2H17V2.2C16.6 2.1 15.6 2 14.5 2 12 2 10.3 3.5 10.3 6.3V8.5H7.5v3.4h2.8V22h3.7v-10.1h2.6l.4-3.4H14Z"/></svg>
+      </a>
+      <a class="social-icon" aria-label="Instagram Kristou Coucou Beach"
+         href="https://www.instagram.com/kristou_coucou_beach?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c2.7 0 3 0 4.1.1 1 0 1.7.2 2.3.5.6.2 1.1.5 1.6 1s.8 1 1 1.6c.3.6.4 1.3.5 2.3.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c0 1-.2 1.7-.5 2.3-.2.6-.5 1.1-1 1.6s-1 .8-1.6 1c-.6.3-1.3.4-2.3.5-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-1 0-1.7-.2-2.3-.5-.6-.2-1.1-.5-1.6-1s-.8-1-1-1.6c-.3-.6-.4-1.3-.5-2.3C2 15 2 14.7 2 12s0-3 .1-4.1c0-1 .2-1.7.5-2.3.2-.6.5-1.1 1-1.6s1-.8 1.6-1c.6-.3 1.3-.4 2.3-.5C9 2 9.3 2 12 2Zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.3a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6Zm5.2-8.5a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4Z"/></svg>
+      </a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <nav aria-label="Navigation mobile">
+    <a href="#accueil" class="m-link">Accueil</a>
+    <a href="#apropos" class="m-link">À propos</a>
+    <a href="#services" class="m-link">Services</a>
+    <a href="#galerie" class="m-link">Galerie</a>
+    <a href="#forfaits" class="m-link">Forfaits</a>
+    <a href="#contact" class="m-link">Contact</a>
+  </nav>
+  <a class="btn btn-reserve m-reserve"
+     href="https://wa.me/21693604882?text=Bonjour%20Kristou%20Coucou%20Beach%2C%20je%20souhaite%20r%C3%A9server.%20Merci."
+     target="_blank" rel="noopener">Réserver sur WhatsApp</a>
+  <div class="m-socials">
+    <a class="social-icon" aria-label="Facebook" href="https://www.facebook.com/kristoucoucoubeach/?locale=fr_FR" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V6.7c0-.8.2-1.2 1.3-1.2H17V2.2C16.6 2.1 15.6 2 14.5 2 12 2 10.3 3.5 10.3 6.3V8.5H7.5v3.4h2.8V22h3.7v-10.1h2.6l.4-3.4H14Z"/></svg>
+    </a>
+    <a class="social-icon" aria-label="Instagram" href="https://www.instagram.com/kristou_coucou_beach?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c2.7 0 3 0 4.1.1 1 0 1.7.2 2.3.5.6.2 1.1.5 1.6 1s.8 1 1 1.6c.3.6.4 1.3.5 2.3.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c0 1-.2 1.7-.5 2.3-.2.6-.5 1.1-1 1.6s-1 .8-1.6 1c-.6.3-1.3.4-2.3.5-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-1 0-1.7-.2-2.3-.5-.6-.2-1.1-.5-1.6-1s-.8-1-1-1.6c-.3-.6-.4-1.3-.5-2.3C2 15 2 14.7 2 12s0-3 .1-4.1c0-1 .2-1.7.5-2.3.2-.6.5-1.1 1-1.6s1-.8 1.6-1c.6-.3 1.3-.4 2.3-.5C9 2 9.3 2 12 2Zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.3a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6Zm5.2-8.5a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4Z"/></svg>
+    </a>
+  </div>
+</div>
+
+<main>
+
+<!-- ============ ACCUEIL / HERO ============ -->
+<section id="accueil" class="hero">
+  <div class="hero-slides" id="hero-slides">
+    <div class="hero-slide is-active"><img src="assets/media/hero/hero-1.webp" alt="Vue panoramique de la plage privée Kristou Coucou Beach" fetchpriority="high" /></div>
+    <div class="hero-slide"><img src="assets/media/hero/hero-2.webp" alt="Eaux cristallines et sable doré à Ghar El Melh" loading="lazy" /></div>
+    <div class="hero-slide"><img src="assets/media/hero/hero-3.webp" alt="Cabanes et paillotes les pieds dans l'eau" loading="lazy" /></div>
+    <div class="hero-slide"><img src="assets/media/hero/hero-4.webp" alt="Ambiance festive au bord de la mer" loading="lazy" /></div>
+    <div class="hero-slide"><img src="assets/media/hero/hero-5.webp" alt="Coucher de soleil spectaculaire sur la Méditerranée" loading="lazy" /></div>
+    <div class="hero-slide"><img src="assets/media/hero/hero-6.webp" alt="Détente et évasion à Kristou Coucou Beach" loading="lazy" /></div>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <button class="hero-arrow hero-prev" id="hero-prev" aria-label="Image précédente">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <button class="hero-arrow hero-next" id="hero-next" aria-label="Image suivante">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+  </button>
+
+  <div class="hero-content">
+    <p class="eyebrow eyebrow-light reveal">Ghar El Melh · Tunisie</p>
+    <h1 class="hero-title reveal">Kristou Coucou Beach</h1>
+    <p class="hero-sub reveal">Votre paradis d'été, jour et nuit. Une plage privée d'exception où le sable chaud, les eaux cristallines et les couchers de soleil deviennent des souvenirs impérissables.</p>
+    <a class="btn btn-primary btn-lg reveal"
+       href="https://wa.me/21693604882?text=Bonjour%20Kristou%20Coucou%20Beach%2C%20je%20souhaite%20r%C3%A9server.%20Merci."
+       target="_blank" rel="noopener">Réserver ma journée</a>
+  </div>
+
+  <div class="hero-dots" id="hero-dots" role="tablist" aria-label="Sélection des images"></div>
+</section>
+
+<!-- ============ À PROPOS ============ -->
+<section id="apropos" class="apropos section">
+  <div class="container split">
+    <div class="split-media reveal">
+      <video class="ratio-media" autoplay muted loop playsinline preload="metadata"
+             poster="assets/media/hist/hist-1.webp">
+        <source src="assets/media/hist/hist-video.mp4" type="video/mp4" />
+      </video>
+      <img class="split-media-inset" src="assets/media/hist/hist-1.webp" alt="Journée ensoleillée à Kristou Coucou Beach" loading="lazy" />
+    </div>
+    <div class="split-text reveal">
+      <p class="eyebrow">À propos de nous</p>
+      <h2 class="section-title">Votre Paradis d'été, jour et nuit.</h2>
+      <p class="lead">Le secret le mieux gardé de la Méditerranée vous attend. Niché sur un littoral d'exception, Kristou Coucou Beach réinvente l'art de l'évasion. Laissez-vous séduire par une expérience sensorielle unique où la haute gastronomie rencontre l'audace de nos mocktails signature, le tout rythmé par une ambiance festive et vibrante. Entre sable chaud, eaux cristallines et couchers de soleil spectaculaires, notre équipe de passionnés orchestre chacun de vos instants pour transformer vos journées ensoleillées et vos soirées magiques en souvenirs impérissables. Plus qu'une plage privée, une destination.</p>
+      <a class="btn btn-outline"
+         href="https://wa.me/21693604882?text=Bonjour%20Kristou%20Coucou%20Beach%2C%20je%20souhaite%20r%C3%A9server.%20Merci."
+         target="_blank" rel="noopener">Réserver votre évasion</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES — FEATURES ============ -->
+<section id="services" class="services section section-cream">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Vivez une expérience unique</p>
+      <h2 class="section-title">Laissez-vous transporter par la magie du moment</h2>
+      <p class="section-intro">Kristou Coucou Beach vous propose un forfait complet pour une journée inoubliable sur une plage vierge loin de tout encombrement.</p>
+    </div>
+
+    <div class="features-grid">
+      <article class="feature-card reveal">
+        <div class="feature-badge">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 11l1.5-4.5A2 2 0 0 1 8.4 5h7.2a2 2 0 0 1 1.9 1.5L19 11m-14 0h14m-14 0a2 2 0 0 0-2 2v3h2m14-5a2 2 0 0 1 2 2v3h-2m-2 0H7m10 0v2m-10-2v2M7 16a2 2 0 1 1-4 0m18 0a2 2 0 1 1-4 0"/></svg>
+        </div>
+        <h3>Parking Sécurisé</h3>
+        <p>Laissez votre voiture l'esprit tranquille : espace privé et surveillé, à deux pas de l'embarcadère.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-badge">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17c1.5 1 3 1 4.5 0s3-1 4.5 0 3 1 4.5 0 3-1 4.5 0M5 17l1-6h12l1 6M12 5v6M9 8h6"/></svg>
+        </div>
+        <h3>Traversée en Bateau</h3>
+        <p>L'aventure commence dès l'embarquement : cap sur votre coin de paradis, aller et retour inclus.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-badge">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3v7a3 3 0 0 0 3 3v8m0-18v8M10 3v18M17 3c-1.5 1.5-2 3.5-2 6s.5 4 2 5v7"/></svg>
+        </div>
+        <h3>Déjeuner Complet</h3>
+        <p>Un festin de poisson frais du jour, préparé avec passion par nos chefs, les pieds dans le sable.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-badge">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M8 21h8M12 3c-4 0-7 2.5-7 5.5 0 .5.4 1 1 1h12c.6 0 1-.5 1-1C19 5.5 16 3 12 3ZM4 12h16"/></svg>
+        </div>
+        <h3>Équipement Plage</h3>
+        <p>Cabane, paillote en mer et parasol : tout est prêt, vous n'avez plus qu'à vous détendre.</p>
+      </article>
+    </div>
+
+    <!-- Ambient looping video banner -->
+    <div class="exp-banner reveal">
+      <video autoplay muted loop playsinline preload="metadata" poster="assets/media/exp/exp-1.webp">
+        <source src="assets/media/exp/exp-video.mp4" type="video/mp4" />
+      </video>
+      <div class="exp-banner-overlay">
+        <p class="exp-banner-text">Une plage vierge, loin de tout encombrement — rien que vous, le sable et la mer.</p>
+      </div>
+    </div>
+
+    <!-- ============ SERVICES — CARDS ============ -->
+    <div class="section-head section-head-sm reveal">
+      <p class="eyebrow">Nos services</p>
+      <h2 class="section-title">Tout pour une journée parfaite</h2>
+    </div>
+
+    <div class="cards-grid">
+      <article class="svc-card reveal">
+        <div class="svc-img"><img src="assets/media/services/service-bateau.webp" alt="Traversée en bateau vers la plage privée" loading="lazy" /></div>
+        <div class="svc-body">
+          <h3>Bateau</h3>
+          <p>Fendez les eaux cristallines et rejoignez une plage vierge, loin de l'agitation.</p>
+        </div>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-img"><img src="assets/media/services/service-cabine.webp" alt="Cabine privée les pieds dans le sable" loading="lazy" /></div>
+        <div class="svc-body">
+          <h3>Cabine</h3>
+          <p>Votre espace privé les pieds dans le sable : ombre, confort et vue imprenable sur la mer.</p>
+        </div>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-img"><img src="assets/media/services/service-dej.webp" alt="Déjeuner de poisson frais méditerranéen" loading="lazy" /></div>
+        <div class="svc-body">
+          <h3>Déjeuner</h3>
+          <p>Poisson frais et saveurs méditerranéennes : une table qui célèbre la mer.</p>
+        </div>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-img"><img src="assets/media/services/service-cocktail.webp" alt="Mocktails signature au coucher de soleil" loading="lazy" /></div>
+        <div class="svc-body">
+          <h3>Cocktails</h3>
+          <p>Nos mocktails signature, préparés minute, pour sublimer chaque coucher de soleil.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERIE ============ -->
+<section id="galerie" class="galerie section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Galerie</p>
+      <h2 class="section-title">Un avant-goût du paradis</h2>
+      <p class="section-intro">Plongez dans l'ambiance de Kristou Coucou Beach à travers nos plus belles images.</p>
+    </div>
+
+    <div class="gallery-grid" id="gallery-grid">
+      <!-- populated by JS from all pics_ folders -->
+    </div>
+
+    <div class="gallery-more-wrap">
+      <button class="btn btn-outline" id="gallery-more">Afficher plus</button>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image agrandie">
+  <button class="lb-close" id="lb-close" aria-label="Fermer">&times;</button>
+  <button class="lb-arrow lb-prev" id="lb-prev" aria-label="Précédent"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <img class="lb-img" id="lb-img" src="" alt="" />
+  <button class="lb-arrow lb-next" id="lb-next" aria-label="Suivant"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+</div>
+
+<!-- ============ FORFAITS ============ -->
+<section id="forfaits" class="forfaits section">
+  <div class="container">
+    <div class="forfaits-panel">
+      <div class="section-head reveal">
+        <p class="eyebrow">Réservation</p>
+        <h2 class="section-title">Nos forfaits</h2>
+        <p class="section-intro">Choisissez la formule qui vous ressemble. Chaque forfait comprend l'essentiel pour une journée sans souci.</p>
+      </div>
+
+      <div class="forfaits-grid" id="forfaits-grid">
+        <!-- populated by JS -->
+      </div>
+
+      <p class="forfaits-note reveal">Prix par personne · L'enfant -11 ans : 45 DT · -5 ans : gratuit.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="contact section section-cream">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Contactez-nous</p>
+      <h2 class="section-title">Venez nous Rendre Visite</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="info-row">
+          <span class="info-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          </span>
+          <div>
+            <h3>Adresse</h3>
+            <p>Kristou Coucou Beach<br />Ghar El Melh, Bizerte — Tunisie</p>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <span class="info-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          </span>
+          <div>
+            <h3>Horaires</h3>
+            <p>9h - 19h<br />Saison : 1<sup>er</sup> Juin - 30 Septembre</p>
+          </div>
+        </div>
+
+        <div class="info-row">
+          <span class="info-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L16 14l5 2v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4 6.2 2 2 0 0 1 6 3Z"/></svg>
+          </span>
+          <div>
+            <h3>Téléphone</h3>
+            <p><a href="tel:+21693604882">+216 93 604 882</a></p>
+          </div>
+        </div>
+
+        <a class="btn btn-primary"
+           href="https://wa.me/21693604882?text=Bonjour%20Kristou%20Coucou%20Beach%2C%20je%20souhaite%20r%C3%A9server.%20Merci."
+           target="_blank" rel="noopener">Réserver sur WhatsApp</a>
+      </div>
+
+      <div class="contact-map reveal">
+        <iframe
+          title="Localisation de Kristou Coucou Beach sur Google Maps"
+          src="https://maps.google.com/maps?q=37.1448946,10.2115194&z=15&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <a class="map-link" href="https://maps.app.goo.gl/hhA6WU68Uer9Mj5LA" target="_blank" rel="noopener">Ouvrir dans Google Maps</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <img src="assets/logo-white.png" alt="Kristou Coucou Beach" class="footer-logo" width="140" height="100" loading="lazy" />
+    <p class="footer-tag">Votre paradis d'été, jour et nuit — Ghar El Melh, Tunisie.</p>
+    <div class="footer-socials">
+      <a class="social-icon" aria-label="Facebook" href="https://www.facebook.com/kristoucoucoubeach/?locale=fr_FR" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V6.7c0-.8.2-1.2 1.3-1.2H17V2.2C16.6 2.1 15.6 2 14.5 2 12 2 10.3 3.5 10.3 6.3V8.5H7.5v3.4h2.8V22h3.7v-10.1h2.6l.4-3.4H14Z"/></svg>
+      </a>
+      <a class="social-icon" aria-label="Instagram" href="https://www.instagram.com/kristou_coucou_beach?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c2.7 0 3 0 4.1.1 1 0 1.7.2 2.3.5.6.2 1.1.5 1.6 1s.8 1 1 1.6c.3.6.4 1.3.5 2.3.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c0 1-.2 1.7-.5 2.3-.2.6-.5 1.1-1 1.6s-1 .8-1.6 1c-.6.3-1.3.4-2.3.5-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-1 0-1.7-.2-2.3-.5-.6-.2-1.1-.5-1.6-1s-.8-1-1-1.6c-.3-.6-.4-1.3-.5-2.3C2 15 2 14.7 2 12s0-3 .1-4.1c0-1 .2-1.7.5-2.3.2-.6.5-1.1 1-1.6s1-.8 1.6-1c.6-.3 1.3-.4 2.3-.5C9 2 9.3 2 12 2Zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.3a3.3 3.3 0 1 1 0-6.6 3.3 3.3 0 0 1 0 6.6Zm5.2-8.5a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4Z"/></svg>
+      </a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Kristou Coucou Beach. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
