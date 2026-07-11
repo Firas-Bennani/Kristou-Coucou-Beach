@@ -156,7 +156,7 @@
     { name: 'Paillote en mer', price: 80, img: 'assets/media/forfait/forfait-80.webp', slug: 'paillote en mer' },
     { name: 'Cabane avec piscine privée', price: 90, img: 'assets/media/forfait/forfait-90.webp', slug: 'cabane avec piscine privée' },
     { name: 'Cabane VIP face à la mer', price: 90, img: 'assets/media/forfait/forfait-100.webp', slug: 'cabane VIP face à la mer' },
-    { name: 'Cabane VIP avec piscine dans la mer', price: 90, img: 'assets/media/forfait/forfait-130.webp', slug: 'cabane VIP avec piscine dans la mer',
+    { name: 'Cabane VIP avec piscine dans la mer', price: 130, img: 'assets/media/forfait/forfait-130.webp', slug: 'cabane VIP avec piscine dans la mer',
       featured: true, extra: 'À partir de 5 personnes · L\'enfant -11 ans : 45 DT · -5 ans : gratuit.' }
   ];
 
