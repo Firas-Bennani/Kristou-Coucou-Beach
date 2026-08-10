@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  const WA = 'https://wa.me/21692379944?text=';
+  const WA = 'https://wa.me/21693604882?text=';
 
   /* -------- Header: transparent over hero, solid green on scroll -------- */
   const header = document.getElementById('site-header');
